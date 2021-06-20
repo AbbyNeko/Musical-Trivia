@@ -1,0 +1,116 @@
+body {
+  background-color: #91519d;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.answer-choices {
+  list-style: none;
+}
+
+.answer-choices li {
+  text-align: left;
+  min-height: 10px;
+}
+
+.answer-choices input {
+  margin-right: 2.7em;
+  margin-bottom:1em !important;
+}
+
+.answer-choices label {
+    display: block;
+    position: relative;
+    top: -1.3em;
+    margin-left: 2em;
+}
+
+input.answers {
+  display: none;
+}
+
+h1 {
+  color:white;
+}
+
+/* For tablet and smaller */
+@media only screen and (max-width: 600px) {
+
+    form#trivia-form {
+      width:85% !important;
+    }
+
+    button {
+      padding-right: 50px !important;
+      padding-left: 50px !important;
+    }
+
+    h1 {
+      font-size: 22px !important;
+    }
+
+}
+
+/* Form */
+
+form#trivia-form {
+  width:50%;
+}
+
+form#trivia-form h4 {
+  text-align: left;
+}
+
+img {
+  max-width:90%;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  display: block;
+  color: white;
+  border:1px solid white;
+  background-color: rgba(0,0,0,0);
+  font-size: 25px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  margin-top:55px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+}
+
+button.re-take {
+  margin-bottom:2em;
+}
+
+input[type='radio'] {
+  transform: scale(1.8);
+  vertical-align: top;
+  position: relative;
+  bottom:-0.4em;
+}

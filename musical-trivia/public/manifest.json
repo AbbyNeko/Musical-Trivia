@@ -1,0 +1,10 @@
+{
+  "short_name": "Musical Trivia",
+  "name": "Some Fun Musical Trivia",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
